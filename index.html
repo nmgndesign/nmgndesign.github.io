@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>NMGN PORTFOLIO</title>
@@ -7,15 +8,37 @@
     <!-- CSS 연결 -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style3.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome.css">
 
     <!-- 웹폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,800;0,900;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!--오른쪽 클릭 금지 시작-->
+    <script type="text/javascript">
+        var omitformtags = ["input", "textarea", "select"]
+        omitformtags = omitformtags.join("|")
+        function disableselect(e){
+        if (omitformtags.indexOf(e.target.tagName.toLowerCase()) == -1)
+            return false
+        }
+        function reEnable(){
+            return true
+        }
+        if (typeof document.onselectstart != "undefined")
+        document.onselectstart = new Function ("return false")
+        else{
+            document.onmousedown = disableselect
+            document.onmouseup = reEnable
+        }
+    </script>
+<!--오른쪽 클릭 금지 끝-->
+
 </head>
 
-<body>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
     <div class="progress" id="progress"> 
         
         <span class="progress-text">0</span> 
@@ -137,6 +160,13 @@
                             </p>
                         </div>
                     </div>  
+
+                    <div class="skill_tit2">
+                        <h2 class="h3"><em class="h3_em">I'VE DEVELOPED&nbsp;</em>PRODUCTS FOR</h2>
+                    </div>
+                    <div class="skill_product">
+                        <img src="./assets/img/products.png" alt="Products">
+                    </div>
                     <div class="skill_pie">
                         <ul class="skill_one">
                             <li class="pie" data-percent="90">
@@ -173,11 +203,103 @@
                 <div class="work1">
                     <div class="work1_top">
                         <h2 class="h2">project<em class="h2_em"> 01</em> </h2>
-                        <p>WEB <em>STANDAD</em></p>
+                        <p>Cliff </p>
                     </div>
                     <div class="work1_left">
                         <div class="left1">
-                            <p class="site_tit1">web standad</p>
+                            <p class="site_tit1">Cliff</p>
+                            <ol>
+                                <li>Category</li>
+                                <li>웹표준 사이트</li>
+
+                                <li>Size</li>
+                                <li>1920 X 1080 px</li>
+
+                                <li>Date</li>
+                                <li>2020.04 </li>
+
+                                <li>Program</li>
+                                <li>brackets</li>
+
+                                <li>Role</li>
+                                <li>개인 프로젝트</li>
+                            </ol>
+                        </div>
+                        <div class="left2">
+                            <h4 class="site_tit2">SUMMARY</h4>
+                            <p class="text">웹표준을 준수하여 크로스브라우징 작업을 완료한
+                                웹표준 사이트입니다. slick, light box 제이쿼리
+                                플러그인을 사용하여 동적인 효과를 주었으며
+                                웹접근성을 위해 대체 텍스트를 넣어 모든 사용자가
+                                불편함 없이 사용할수 있도록 제작하였습니다.
+                            </p>
+                            <a href="siteee" class="thar-one hover" target="_blank">more</a>
+                        </div>
+                    </div>
+                    <div class="work1_right">
+                        <img src="./assets/img/index_p01.png" alt="Cliff">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- work2 - 사이트2 -->
+    <div id="work2">
+        <div class="container">
+            <div class="row">
+                <div class="work2">
+                    <div class="work2_top">
+                        <h2 class="h2">project<em class="h2_em"> 02</em> </h2>
+                        <p>orbit</p>
+                    </div>
+                    <div class="work2_left">
+                        <p class="site_tit1">orbit</p>
+                        <ol>
+                            <li>Category</li>
+                            <li>반응형 사이트</li>
+
+                            <li>Size</li>
+                            <li>1920 X 1080 px</li>
+
+                            <li>Date</li>
+                            <li>2020.04</li>
+
+                            <li>Program</li>
+                            <li>brackets</li>
+
+                            <li>Role</li>
+                            <li>개인 프로젝트</li>
+                        </ol>
+                        <h4 class="site_tit2">사이트 설명</h4>
+                        <p>웹표준을 준수하여 크로스브라우징 작업을 완료한
+                            웹표준 사이트입니다. slick, light box 제이쿼리
+                            플러그인을 사용하여 동적인 효과를 주었으며
+                            웹접근성을 위해 대체 텍스트를 넣어 모든 사용자가
+                            불편함 없이 사용할수 있도록 제작하였습니다.
+                        </p>
+                            <a href="siteee" class="thar-one hover" target="_blank">more</a>
+                    </div>
+                    <div class="work2_right">
+                        <img src="./assets/img/index_p02.png" alt="Orbit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- work3 - 사이트3 -->
+    <div id="work3">
+        <div class="container">
+            <div class="row">
+                <div class="work3">
+                    <div class="work3_top">
+                        <h2 class="h2">project<em class="h2_em"> 03</em> </h2>
+                        <p>hearty</p>
+                    </div>
+                    <div class="work3_left">
+                        <div class="left1">
+                            <p class="site_tit1">hearty</p>
                             <ol>
                                 <li>Category</li>
                                 <li>웹표준 사이트</li>
@@ -203,28 +325,120 @@
                                 웹접근성을 위해 대체 텍스트를 넣어 모든 사용자가
                                 불편함 없이 사용할수 있도록 제작하였습니다.
                             </p>
-                            <a href="#none">Site view</a>
+                            <a href="siteee" class="thar-one hover" target="_blank">more</a>
                         </div>
                     </div>
-                    <div class="work1_right">
-                        <img src="./assets/img/Chrome Mac OS_web.png" alt="웹표준 사이트">
+                    <div class="work3_right">
+                        <img src="./assets/img/index_p03.png" alt="hearty">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- work2 - 사이트2 -->
-    <div id="work2">
+    <!-- work4 - 사이트4 -->
+    <div id="work4">
         <div class="container">
             <div class="row">
-                <div class="work2">
-                    <div class="work2_top">
-                        <h2 class="h2">project<em class="h2_em"> 02</em> </h2>
-                        <p>responsive <em>site</em></p>
+                <div class="work4">
+                    <div class="work4_top">
+                        <h2 class="h2">project<em class="h2_em"> 04</em> </h2>
+                        <p>binary</p>
                     </div>
-                    <div class="work2_left">
-                        <p class="site_tit1">responsive site</p>
+                    <div class="work4_left">
+                        <p class="site_tit1">binary</p>
+                        <ol>
+                            <li>Category</li>
+                            <li>반응형 4444</li>
+
+                            <li>Size</li>
+                            <li>1920 X 1080 px</li>
+
+                            <li>Date</li>
+                            <li>2020.04</li>
+
+                            <li>Program</li>
+                            <li>brackets</li>
+
+                            <li>Role</li>
+                            <li>개인 프로젝트</li>
+                        </ol>
+                        <h4 class="site_tit2">사이트 설명</h4>
+                        <p>웹표준을 준수하여 크로스브라우징 작업을 완료한
+                            웹표준 사이트입니다. slick, light box 제이쿼리
+                            플러그인을 사용하여 동적인 효과를 주었으며
+                            웹접근성을 위해 대체 텍스트를 넣어 모든 사용자가
+                            불편함 없이 사용할수 있도록 제작하였습니다.
+                        </p>
+                            <a href="siteee" class="thar-one hover" target="_blank">more</a>
+                    </div>
+                    <div class="work4_right">
+                        <img src="./assets/img/index_p04.png" alt="binary">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- work5 - 사이트5 -->
+    <!-- work5 - 사이트1 -->
+    <div id="work5">
+        <div class="container">
+            <div class="row">
+                <div class="work5">
+                    <div class="work5_top">
+                        <h2 class="h2">project<em class="h2_em"> 05</em> </h2>
+                        <p>DOWN POT</p>
+                    </div>
+                    <div class="work5_left">
+                        <div class="left1">
+                            <p class="site_tit1">DOWN POT</p>
+                            <ol>
+                                <li>Category</li>
+                                <li>웹표준 사이트</li>
+
+                                <li>Size</li>
+                                <li>1920 X 1080 px</li>
+
+                                <li>Date</li>
+                                <li>2020.04 </li>
+
+                                <li>Program</li>
+                                <li>brackets</li>
+
+                                <li>Role</li>
+                                <li>개인 프로젝트</li>
+                            </ol>
+                        </div>
+                        <div class="left2">
+                            <h4 class="site_tit2">사이트 설명</h4>
+                            <p class="text">웹표준을 준수하여 크로스브라우징 작업을 완료한
+                                웹표준 사이트입니다. slick, light box 제이쿼리
+                                플러그인을 사용하여 동적인 효과를 주었으며
+                                웹접근성을 위해 대체 텍스트를 넣어 모든 사용자가
+                                불편함 없이 사용할수 있도록 제작하였습니다.
+                            </p>
+                            <a href="siteee" class="thar-one hover" target="_blank">more</a>
+                        </div>
+                    </div>
+                    <div class="work5_right">
+                        <img src="./assets/img/index_p05.png" alt="DOWN POT">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- work6 - 사이트6 -->
+    <div id="work6">
+        <div class="container">
+            <div class="row">
+                <div class="work6">
+                    <div class="work6_top">
+                        <h2 class="h2">project<em class="h2_em"> 06</em> </h2>
+                        <p>REINFORCE</p>
+                    </div>
+                    <div class="work6_left">
+                        <p class="site_tit1">REINFORCE</p>
                         <ol>
                             <li>Category</li>
                             <li>반응형 사이트</li>
@@ -248,32 +462,73 @@
                             웹접근성을 위해 대체 텍스트를 넣어 모든 사용자가
                             불편함 없이 사용할수 있도록 제작하였습니다.
                         </p>
-                        <a href="#none">Site view</a>
+                            <a href="siteee" class="thar-one hover" target="_blank">more</a>
                     </div>
-                    <div class="work2_right">
-                        <img src="./assets/img/Chrome Mac OS_res.png" alt="웹표준 사이트">
+                    <div class="work6_right">
+                        <img src="./assets/img/index_p06.png" alt="REINFORCE">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- work3 - 사이트3 -->
-
-    <!-- work4 - 사이트4 -->
-
-
-
-
-    <!-- work5 - css 애니메이션 -->
-    <div id="work5">
+    <!-- work7 - 사이트7 -->
+    <div id="work7">
         <div class="container">
             <div class="row">
-                <div class="work5">
-                    <div class="work5_tit">
+                <div class="work7">
+                    <div class="work7_top">
+                        <h2 class="h2">project<em class="h2_em"> 07</em> </h2>
+                        <p>HAWKER</p>
+                    </div>
+                    <div class="work7_left">
+                        <div class="left1">
+                            <p class="site_tit1"HAWKER</p>
+                            <ol>
+                                <li>Category</li>
+                                <li>웹표준 사이트</li>
+
+                                <li>Size</li>
+                                <li>1920 X 1080 px</li>
+
+                                <li>Date</li>
+                                <li>2020.04 </li>
+
+                                <li>Program</li>
+                                <li>brackets</li>
+
+                                <li>Role</li>
+                                <li>개인 프로젝트</li>
+                            </ol>
+                        </div>
+                        <div class="left2">
+                            <h4 class="site_tit2">사이트 설명</h4>
+                            <p class="text">웹표준을 준수하여 크로스브라우징 작업을 완료한
+                                웹표준 사이트입니다. slick, light box 제이쿼리
+                                플러그인을 사용하여 동적인 효과를 주었으며
+                                웹접근성을 위해 대체 텍스트를 넣어 모든 사용자가
+                                불편함 없이 사용할수 있도록 제작하였습니다.
+                            </p>
+                            <a href="siteee" class="thar-one hover" target="_blank">more</a>
+                        </div>
+                    </div>
+                    <div class="work7_right">
+                        <img src="./assets/img/index_p07.png" alt="HAWKER">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- work8 - css 애니메이션 -->
+    <div id="work8">
+        <div class="container">
+            <div class="row">
+                <div class="work8">
+                    <div class="work8_tit">
                         <h2 class="h2"><em class="h2_em">OTHER</em>WORKS</h2>
                     </div>
-                    <div class="work5_col1">
+                    <div class="work8_col1">
                         <div class="box">    
                             <div class="css_wave">
                                 <div class="circles">
@@ -782,7 +1037,6 @@
 
 
 
-
     <!-- contact -->
     <div id="contact">
         <div class="container">
@@ -803,7 +1057,7 @@
                                 <input type="email" name="email" id="email" class="email" placeholder="Your email address" required="">
                                 <label for="message" class="ir_su">Message</label>
                                 <textarea name="message" id="message" class="message" placeholder="Message를 입력해주세요." rows="10" required=""></textarea>
-                                <button type="submit">SEND MAIL</button>
+                                <button type="submit" class="hover">SEND MAIL</button>
                             </fieldset>
                         </form>
                     </div>
@@ -923,9 +1177,26 @@
         if(wScroll >= $("#work2").offset().top - $(window).height()/2){
             $("#work2").addClass("show");
         }
-        
+
+        if(wScroll >= $("#work3").offset().top - $(window).height()/2){
+            $("#work3").addClass("show");
+        }
+         if(wScroll >= $("#work4").offset().top - $(window).height()/2){
+            $("#work4").addClass("show");
+        }
         if(wScroll >= $("#work5").offset().top - $(window).height()/2){
             $("#work5").addClass("show");
+        }
+        
+        if(wScroll >= $("#work6").offset().top - $(window).height()/2){
+            $("#work6").addClass("show");
+        }
+
+        if(wScroll >= $("#work7").offset().top - $(window).height()/2){
+            $("#work7").addClass("show");
+        }
+        if(wScroll >= $("#work8").offset().top - $(window).height()/2){
+            $("#work8").addClass("show");
         }
         
         if(wScroll >= $("#contact").offset().top - $(window).height()/2){
