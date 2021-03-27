@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cliff</title>
+
+    <!-- CSS 연결 -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/detail.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome.css">
+
+    <!-- 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,800;0,900;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!--오른쪽 클릭 금지 시작-->
+    <script type="text/javascript">
+        var omitformtags = ["input", "textarea", "select"]
+        omitformtags = omitformtags.join("|")
+        function disableselect(e){
+        if (omitformtags.indexOf(e.target.tagName.toLowerCase()) == -1)
+            return false
+        }
+        function reEnable(){
+            return true
+        }
+        if (typeof document.onselectstart != "undefined")
+        document.onselectstart = new Function ("return false")
+        else{
+            document.onmousedown = disableselect
+            document.onmouseup = reEnable
+        }
+    </script>
+<!--오른쪽 클릭 금지 끝-->
+
+</head>
+
+
+<BODY oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+
+    <!-- main -->
+    <div id="main">
+		<center><img src="./assets/img/index_p01.png" width="1920"><br></center>
+		<center><img src="./assets/img/products.png" width="1920" ><br></center>
+		<center><img src="./assets/img/index_p03.png" width="1920"><br></center>
+		<center><img src="./assets/img/index_p04.png" width="1920"><br></center>
+	</div>
+
+ <script>
+        
+    //imageProgress
+    function imagesProgress(){
+        var $container = $('#progress'),
+            $progressText = $container.find('.progress-text'),
+            imgLoad = imagesLoaded('body'),	
+            imgTotal = imgLoad.images.length,	
+            imgLoaded = 0,										
+            current = 0,							
+            progressTimer = setInterval(updateProgress, 1000 / 60);
+
+        imgLoad.on('progress', function(){
+            imgLoaded++;
+        });
+
+        function updateProgress(){
+            var target = ( imgLoaded / imgTotal) * 100;
+
+            current += ( target - current) * 0.1;
+            $progressText.text( Math.floor(current) + '%' );
+
+            if(current >= 100){
+                clearInterval(progressTimer);
+                
+                $container.animate({top: '-110%'},1000,'easeInOutQuint');
+                    
+                
+
+
+                $('body').addClass('active');
+            }
+            if(current > 99.98){
+                current = 100;
+            }
+        }	
+    };
+        
+    imagesProgress()
+        
+        
+
+    //텍스트 show
+    $(window).scroll(function(){
+        let wScroll = $(window).scrollTop()
+        
+        if(wScroll >= $("#page1").offset().top - $(window).height()/2){
+            $("#page1").addClass("show");
+        }
+        
+        if(wScroll >= $("#page2").offset().top - $(window).height()/2){
+            $("#page2").addClass("show");
+        }
+        
+        if(wScroll >= $("#page3").offset().top - $(window).height()/2){
+            $("#page3").addClass("show");
+        }        
+        
+        if(wScroll >= $("#page4").offset().top - $(window).height()/2){
+            $("#page4").addClass("show");
+        }
+        
+        if(wScroll >= $("#work2").offset().top - $(window).height()/2){
+            $("#work2").addClass("show");
+        }
+
+        if(wScroll >= $("#work3").offset().top - $(window).height()/2){
+            $("#work3").addClass("show");
+        }
+         if(wScroll >= $("#work4").offset().top - $(window).height()/2){
+            $("#work4").addClass("show");
+        }
+        if(wScroll >= $("#work5").offset().top - $(window).height()/2){
+            $("#work5").addClass("show");
+        }
+        
+        if(wScroll >= $("#work6").offset().top - $(window).height()/2){
+            $("#work6").addClass("show");
+        }
+
+        if(wScroll >= $("#work7").offset().top - $(window).height()/2){
+            $("#work7").addClass("show");
+        }
+        if(wScroll >= $("#work8").offset().top - $(window).height()/2){
+            $("#work8").addClass("show");
+        }
+        
+        if(wScroll >= $("#contact").offset().top - $(window).height()/2){
+            $("#contact").addClass("show");
+        }
+        
+        if(wScroll >= $("#footer").offset().top - $(window).height()/2){
+            $("#footer").addClass("show");
+        }
+    });
+
+
+    //스킬 counter
+    function counter() {
+        if ($('.skill_one .count').size()) {
+            $c = $('.skill_one .count');
+
+            $c.each(function () {
+                var $this = $(this);
+                $this.data('target', parseInt($this.html()));
+                $this.data('counted', false);
+                $this.html('0');
+            });
+
+            $(window).on('scroll', function () {
+                var speed = 5000;
+
+                $c.each(function (i) {
+                    var $t = $(this);
+                    if (!$t.data('counted') && $(window).scrollTop() + $(window).height() >= $t.offset().top) {
+
+                        $t.data('counted', true);
+
+                        $t.animate({
+                            dummy: 1
+                        }, {
+                            duration: speed,
+                            step: function (now) {
+                                var $this = $(this);
+                                var val = Math.round($this.data('target') * now);
+                                $this.html(val);
+                            },
+                            easing: 'easeInOutQuart'
+                        });
+
+                        // easy pie
+                        $('.pie').easyPieChart({
+                            barColor: '#ffd600',
+                            trackColor: '#030303',
+                            scaleColor: '#fff',
+                            scaleLength: 5,
+                            lineWidth: 2,
+                            size: 180,
+                            lineCap: 'round',
+                            animate: { duration: speed, enabled: true }
+                        });
+                    }
+                });
+            }).triggerHandler('scroll');
+        }
+    }
+
+    counter();
+
+    </script>
+
+</BODY>
+
+</html>
