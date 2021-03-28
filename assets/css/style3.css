@@ -53,7 +53,7 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
     font-weight: bold;
     display: block;
 }
-.row{padding: 0 40px;}
+.row{padding: 0 0px;}
 .container{width: 1400px; margin: 0 auto; background:  rgba(255,0,0,0.0);}
 
 
@@ -73,6 +73,11 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #work8{background:rgba(0,0,0,1);}
 #contact{background:rgba(0,0,0,0.9);}
 #footer{background:rgba(0,0,0,1);}
+
+
+
+
+
 
 /* header */
 .header{position: fixed; left: 13px; top: 0; display: flex; width: 100%; height: 90px; justify-content: center; font-family: 'Montserrat', sans-serif; font-weight: bold; z-index: 20000;}
@@ -104,7 +109,7 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 /* main - 애니메이션 */
 .main{}
 .main h1{opacity: 0; transform: translateY(50px); transition: all 0.3s 0.2s ease-in-out;}
-.main h1 em{opacity: 0; transform: translateY(50px); transition: all 0.3s 0.0s ease-in-out;}
+.main h1 em{opacity: 0; transform: translateY(50px); transition: all 0.3s 0.4s ease-in-out;}
 #main.show .main{}
 #main.show .main h1{opacity: 1; transform: translateY(0);}
 #main.show .main h1 em{opacity: 1; transform: translateY(0);}
@@ -112,7 +117,7 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 /* about */
 #about .container{width: 100%;}
 .about{overflow: hidden;}
-.about .about_left {float: left; width: 50%; height: 100%; background:rgba(0,0,0,1); position: relative; box-sizing: border-box; padding: 7% 60px;}
+.about .about_left {float: left; width: 50%; height: 100%; background:rgba(0,0,0,1); position: relative; box-sizing: border-box; padding: 8% 60px;}
 .about .about_left .left_col1{margin-top: 40px;}
 .about .about_left .left_col1 .box {display: flex; align-items: center; justify-content: center; position: relative; 
 
@@ -190,17 +195,17 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 .skill .skill_tit2 h2 em{display: inline-block;}
 .skill .skill_products {float: left; width: 0%;}
 .skill .skill_products img{width: 100%; border-radius: 7px;}
-.skill_pie{float: left; width: 100%; text-align: center; padding-top: 5%; font-family: 'Montserrat', sans-serif;}
-.skill_pie ul{}
-.skill_pie li{display: inline; position: relative; margin: 0 25px;}
-.skill_pie li a{color: #fff; text-align: center;}
-.skill_pie li a strong{font-size: 24px; display: block; letter-spacing: 1.5px; font-weight: 400; line-height: 1.7;}
-.skill_pie li a span{font-size: 14px; display: block; letter-spacing: 2px;}
-.skill_pie li:nth-child(1) a{position: absolute; left: 50%; top: -110px; transform: translate(-50%);}
-.skill_pie li:nth-child(2) a{position: absolute; left: 50%; top: -110px; transform: translate(-50%);}
-.skill_pie li:nth-child(3) a{position: absolute; left: 50%; top: -110px; transform: translate(-50%);}
-.skill_pie li:nth-child(4) a{position: absolute; left: 50%; top: -110px; transform: translate(-50%);}
-.skill_pie li:nth-child(5) a{position: absolute; left: 50%; top: -110px; transform: translate(-50%);}
+/* skill */
+.skill{padding:% 0;}
+.skill .skill_image{float: left; width: 100%; padding: 3% 0;}
+.skill .skill_image img{width: 100%; border-radius: 7px;}
+/* skill - 애니메이션*/
+.skill{}
+.skill .skill_image{opacity: 0; transform: translateY(40px); transition: all 0.3s 1s ease-in-out;}
+.skill .skill_image img{}
+#skill.show .skill{}
+#skill.show .skill .skill_image{opacity: 1; transform: translateY(0);}
+#skill.show .skill .skill_image img{}
 
 /* skill - 애니메이션 */
 .skill{}
@@ -222,12 +227,7 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 .skill .skill_tit2 h2 em{}
 .skill .skill_products {opacity: 0; transform: translateY(40px); transition: all 0.3s 0.8s ease-in-out;}
 .skill .skill_products img{}
-.skill_pie{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.8s ease-in-out;}
-.skill_pie ul{}
-.skill_pie li{}
-.skill_pie li a{}
-.skill_pie li a strong{}
-.skill_pie li a span{}
+
 #skill.show .skill{}
 #skill.show .skill .skill_tit{opacity: 1; transform: translateY(0);}
 #skill.show .skill .skill_tit h2{}
@@ -248,12 +248,7 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #skill.show .skill .skill_tit2 h2 em{}
 #skill.show .skill .skill_products {opacity: 1; transform: translateY(0);}
 #skill.show .skill .skill_products img{}
-#skill.show .skill_pie{opacity: 1; transform: translateY(0);}
-#skill.show .skill_pie ul{}
-#skill.show .skill_pie li{}
-#skill.show .skill_pie li a{}
-#skill.show .skill_pie li a strong{}
-#skill.show .skill_pie li a span{}
+
 
 /* work1 */
 .work1{overflow: hidden; color: #fff; text-transform: uppercase; padding: 15% 0 10% 0;}
@@ -400,7 +395,7 @@ a.thar-one:before {
 
 /* work3 */
 .work3{overflow: hidden; color: #fff; text-transform: uppercase; padding: 15% 0 10% 0;}
-.work3 .work3_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.work3 .work3_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 3%;}
 .work3 .work3_top h2{margin-top: -35px; display: inline; font-size: 80px;}
 .work3 .work3_top h2 em{display: inline; font-size: 80px;}
 .work3 .work3_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
@@ -451,7 +446,7 @@ a.thar-one:before {
 #work3.show .work3 .work3_right img{}
 
 /* work4 */
-.work4{overflow: hidden; color: #fff; text-transform: uppercase; padding: 10% 0 15% 0;}
+.work4{overflow: hidden; color: #fff; text-transform: uppercase; padding: 10% 0 10% 0;}
 .work4 .work4_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 3%;}
 .work4 .work4_top h2{margin-top: -35px; display: inline; font-size: 80px;}
 .work4 .work4_top h2 em{display: inline; font-size: 80px;}
@@ -505,8 +500,8 @@ a.thar-one:before {
 #work4.show .work4 .work4_right img{}
 
 /* work5 */
-.work5{overflow: hidden; color: #fff; text-transform: uppercase; padding: 15% 0 10% 0;}
-.work5 .work5_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.work5{overflow: hidden; color: #fff; text-transform: uppercase; padding: 10% 0 10% 0;}
+.work5 .work5_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 3%;}
 .work5 .work5_top h2{margin-top: -35px; display: inline; font-size: 80px;}
 .work5 .work5_top h2 em{display: inline; font-size: 80px;}
 .work5 .work5_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
@@ -557,7 +552,7 @@ a.thar-one:before {
 #work5.show .work5 .work5_right img{}
 
 /* work6 */
-.work6{overflow: hidden; color: #fff; text-transform: uppercase; padding: 10% 0 15% 0;}
+.work6{overflow: hidden; color: #fff; text-transform: uppercase; padding: 10% 0 10% 0;}
 .work6 .work6_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 3%;}
 .work6 .work6_top h2{margin-top: -35px; display: inline; font-size: 80px;}
 .work6 .work6_top h2 em{display: inline; font-size: 80px;}
@@ -612,8 +607,8 @@ a.thar-one:before {
 
 
 /* work7 */
-.work7{overflow: hidden; color: #fff; text-transform: uppercase; padding: 15% 0 10% 0;}
-.work7 .work7_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.work7{overflow: hidden; color: #fff; text-transform: uppercase; padding: 10% 0 10% 0;}
+.work7 .work7_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 3%;}
 .work7 .work7_top h2{margin-top: -35px; display: inline; font-size: 80px;}
 .work7 .work7_top h2 em{display: inline; font-size: 80px;}
 .work7 .work7_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
@@ -672,6 +667,9 @@ a.thar-one:before {
 .work8 .work8_col1 .box{display: flex; flex-wrap: wrap; align-items: center; justify-content: center;}
 .work8 .work8_col1 .box > div{width: 280px; height: 280px; background: #fff; float: left; margin: 20px;}
 .work8 .work8_col1 .box > div.css_wave{display: flex; justify-content: center; align-items: center; background: linear-gradient(green, yellow);}
+.work8 .work8_center{float: left; width: 100%;}
+.work8 .work8_center img{width: 100%; border-radius: 7px;}
+
 
 /* work8 - 애니메이션*/
 .work8{}
@@ -681,6 +679,8 @@ a.thar-one:before {
 .work8 .work8_col1{}
 .work8 .work8_col1 .box{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.4s ease-in-out;}
 .work8 .work8_col1 .box > div{}
+.work8 .work8_center{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.6s ease-in-out;}
+.work8 .work8_center img{}
 #work8.show .work8{}
 #work8.show .work8 .work8_tit{}
 #work8.show .work8 .work8_tit h2{opacity: 1; transform: translateY(0);}
@@ -688,6 +688,8 @@ a.thar-one:before {
 #work8.show .work8 .work8_col1{}
 #work8.show .work8 .work8_col1 .box{opacity: 1; transform: translateY(0);}
 #work8.show .work8 .work8_col1 .box > div{}
+#work8.show .work8 .work8_center{opacity: 1; transform: translateY(0);}
+#work8.show .work8 .work8_center img{}
 
 /* work8 - wave */
 .css_wave .circle{
