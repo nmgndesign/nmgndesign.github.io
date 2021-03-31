@@ -24,6 +24,8 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #page13{background:rgba(0,0,0,1);}
 #page14{background:rgba(0,0,0,1);}
 #page15{background:rgba(0,0,0,1);}
+#page16{background:rgba(0,0,0,1);}
+#page17{background:rgba(0,0,0,1);}
 #wrong{background:rgba(0,0,0,1);}
 
 
@@ -818,6 +820,110 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #page15.show .page15 .page15_image img{}
 
 
+/* page16 */
+.page16{overflow: hidden; color: #fff; text-transform: uppercase; padding: 0% 0 0% 0;}
+.page16 .page16_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.page16 .page16_top h2{margin-top: -35px; display: inline; font-size: 80px;}
+.page16 .page16_top h2 em{display: inline; font-size: 80px;}
+.page16 .page16_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
+.page16 .page16_top p em{color: #fff; display: inline;  font-size: 80px; font-style: normal; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; line-height: 0.5;}
+.page16 .page16_left{float: left; width: 25%; margin-image: 5%;}
+.page16 .page16_left .site_tit1{font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; margin: 40px 0 20px 0; position: relative;}
+.page16 .page16_left .site_tit1::before{content: ''; width: 20px; height: 2px; position: absolute; top: -20px; left: 0; background: #fff;}
+.page16 .page16_left h4.site_tit2{color: #fff; font-weight: bold; margin: 40px 0 20px 0; font-size: 15px; font-family: 'S-CoreDream-2ExtraLight'; display: block;}
+.page16 .page16_left ol{overflow: hidden; width: 100%;}
+.page16 .page16_left li{float: left; width: 40%; line-height: 2; font-family: 'Roboto','S-CoreDream-2ExtraLight'; letter-spacing: 1px; font-size: 12px;}
+.page16 .page16_left p{font-family: 'S-CoreDream-2ExtraLight'; letter-spacing: 0.65px; line-height: 1.8;}
+.page16 .page16_left a{color: #fff; margin-top: 40px; display: block; font-size: 14px; letter-spacing: 2px; position: relative; font-weight: bold; border: 1px dashed #fff; padding: 15px; text-align: center;}
+.page16 .page16_image{float: left; width: 100%;}
+.page16 .page16_image img{width: 100%; border-radius: 0px;}
+
+/* page16 - 애니메이션 */
+.page16{}
+.page16 .page16_top{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.0s ease-in-out;}
+.page16 .page16_top h2{}
+.page16 .page16_top h2 em{}
+.page16 .page16_top p{}
+.page16 .page16_top p em{}
+.page16 .page16_left{}
+.page16 .page16_left .site_tit1{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.4s ease-in-out;}
+.page16 .page16_left .site_tit1::before{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.2s ease-in-out;}
+.page16 .page16_left h4.site_tit2{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.8s ease-in-out;}
+.page16 .page16_left ol{}
+.page16 .page16_left li{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.6s ease-in-out;}
+.page16 .page16_left p{opacity: 0; transform: translateY(40px); transition: all 0.3s 1.0s ease-in-out;}
+.page16 .page16_left a{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.4s ease-in-out;}
+.page16 .page16_image{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.4s ease-in-out;}
+.page16 .page16_image img{}
+#page16.show .page16{}
+#page16.show .page16 .page16_top{opacity: 1; transform: translateY(0);}
+#page16.show .page16 .page16_top h2{}
+#page16.show .page16 .page16_top h2 em{}
+#page16.show .page16 .page16_top p{}
+#page16.show .page16 .page16_top p em{}
+#page16.show .page16 .page16_left{}
+#page16.show .page16 .page16_left .site_tit1{opacity: 1; transform: translateY(0);}
+#page16.show .page16 .page16_left .site_tit1::before{opacity: 1; transform: translateY(0);}
+#page16.show .page16 .page16_left h4.site_tit2{opacity: 1; transform: translateY(0);}
+#page16.show .page16 .page16_left ol{}
+#page16.show .page16 .page16_left li{opacity: 1; transform: translateY(0);}
+#page16.show .page16 .page16_left p{opacity: 1; transform: translateY(0);}
+#page16.show .page16 .page16_left a{opacity: 1; transform: translateY(0);}
+#page16.show .page16 .page16_image{opacity: 1; transform: translateY(0);}
+#page16.show .page16 .page16_image img{}
+
+
+/* page17 */
+.page17{overflow: hidden; color: #fff; text-transform: uppercase; padding: 0% 0 0% 0;}
+.page17 .page17_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.page17 .page17_top h2{margin-top: -35px; display: inline; font-size: 80px;}
+.page17 .page17_top h2 em{display: inline; font-size: 80px;}
+.page17 .page17_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
+.page17 .page17_top p em{color: #fff; display: inline;  font-size: 80px; font-style: normal; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; line-height: 0.5;}
+.page17 .page17_left{float: left; width: 25%; margin-image: 5%;}
+.page17 .page17_left .site_tit1{font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; margin: 40px 0 20px 0; position: relative;}
+.page17 .page17_left .site_tit1::before{content: ''; width: 20px; height: 2px; position: absolute; top: -20px; left: 0; background: #fff;}
+.page17 .page17_left h4.site_tit2{color: #fff; font-weight: bold; margin: 40px 0 20px 0; font-size: 15px; font-family: 'S-CoreDream-2ExtraLight'; display: block;}
+.page17 .page17_left ol{overflow: hidden; width: 100%;}
+.page17 .page17_left li{float: left; width: 40%; line-height: 2; font-family: 'Roboto','S-CoreDream-2ExtraLight'; letter-spacing: 1px; font-size: 12px;}
+.page17 .page17_left p{font-family: 'S-CoreDream-2ExtraLight'; letter-spacing: 0.65px; line-height: 1.8;}
+.page17 .page17_left a{color: #fff; margin-top: 40px; display: block; font-size: 14px; letter-spacing: 2px; position: relative; font-weight: bold; border: 1px dashed #fff; padding: 15px; text-align: center;}
+.page17 .page17_image{float: left; width: 100%;}
+.page17 .page17_image img{width: 100%; border-radius: 0px;}
+
+/* page17 - 애니메이션 */
+.page17{}
+.page17 .page17_top{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.0s ease-in-out;}
+.page17 .page17_top h2{}
+.page17 .page17_top h2 em{}
+.page17 .page17_top p{}
+.page17 .page17_top p em{}
+.page17 .page17_left{}
+.page17 .page17_left .site_tit1{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.4s ease-in-out;}
+.page17 .page17_left .site_tit1::before{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.2s ease-in-out;}
+.page17 .page17_left h4.site_tit2{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.8s ease-in-out;}
+.page17 .page17_left ol{}
+.page17 .page17_left li{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.6s ease-in-out;}
+.page17 .page17_left p{opacity: 0; transform: translateY(40px); transition: all 0.3s 1.0s ease-in-out;}
+.page17 .page17_left a{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.4s ease-in-out;}
+.page17 .page17_image{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.4s ease-in-out;}
+.page17 .page17_image img{}
+#page17.show .page17{}
+#page17.show .page17 .page17_top{opacity: 1; transform: translateY(0);}
+#page17.show .page17 .page17_top h2{}
+#page17.show .page17 .page17_top h2 em{}
+#page17.show .page17 .page17_top p{}
+#page17.show .page17 .page17_top p em{}
+#page17.show .page17 .page17_left{}
+#page17.show .page17 .page17_left .site_tit1{opacity: 1; transform: translateY(0);}
+#page17.show .page17 .page17_left .site_tit1::before{opacity: 1; transform: translateY(0);}
+#page17.show .page17 .page17_left h4.site_tit2{opacity: 1; transform: translateY(0);}
+#page17.show .page17 .page17_left ol{}
+#page17.show .page17 .page17_left li{opacity: 1; transform: translateY(0);}
+#page17.show .page17 .page17_left p{opacity: 1; transform: translateY(0);}
+#page17.show .page17 .page17_left a{opacity: 1; transform: translateY(0);}
+#page17.show .page17 .page17_image{opacity: 1; transform: translateY(0);}
+#page17.show .page17 .page17_image img{}
 
 
 /* 레이아웃 */
