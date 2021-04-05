@@ -5,13 +5,13 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #fff; 
-    font-size: 7rem;
+    font-size: 6rem;
 }
 .h2_em{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #fff; 
-    font-size: 7rem;     
+    font-size: 6rem;     
     font-style: normal;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
@@ -71,8 +71,8 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #work6{background:rgba(0,0,0,1);}
 #work7{background:rgba(0,0,0,1);}
 #work8{background:rgba(0,0,0,1);}
-#contact{background:rgba(0,0,0,0.9);}
-#footer{background:rgba(0,0,0,1);}
+#contact{background:rgba(0,0,0,1);}
+#footer{background:rgba(0,0,0,0.9);}
 
 
 
@@ -136,7 +136,7 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 .about .about_right h2{}
 .about .about_right em{}
 .about .about_right .right_col1{width: 95%;}
-.about .about_right .right_col1 p{color: #fff; margin-top: 70px; font-size: 14px; letter-spacing: 0.7px; font-family: 'S-CoreDream-2ExtraLight'; line-height: 1.6;}
+.about .about_right .right_col1 p{color: #fff; margin-top: 70px; font-size: 11px; letter-spacing: 0.7px; font-family: 'Montserrat'; line-height: 1.6;}
 .about .about_right .right_col1 span{}
 .about .about_right .right_col1 a{color: #fff; font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 16px; margin-top: 30px; display: block; letter-spacing: 0.5px;}
 .about .about_right .right_col1 a:hover{color: #2e3e4d;}
@@ -181,13 +181,13 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 .skill .skill_tit h2 em{display: inline-block;}
 .skill .ability{float: left; width: 50%; padding: 0px 40px 0px 40px; box-sizing: border-box;}
 .skill .ability .box1{display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; flex-direction: column; color: #fff;}
-.skill .ability h3{color: #fff; font-size: 28px; font-weight: bold; text-transform: uppercase; margin: 20px 0; font-style: italic; font-family: 'Montserrat', sans-serif;}
-.skill .ability h4{color: #fff; font-size: 20px; font-weight: bold; border-top: 1px solid #888; display: block; width: 100%; padding: 20px 0; font-family: 'Montserrat', sans-serif;}
+.skill .ability h3{color: #fff; font-size: 24px; font-weight: bold; text-transform: uppercase; margin: 20px 0; font-style: italic; font-family: 'Montserrat', sans-serif;}
+.skill .ability h4{color: #fff; font-size: 16px; font-weight: bold; border-top: 1px solid #888; display: block; width: 100%; padding: 20px 0; font-family: 'Montserrat', sans-serif;}
 .skill .ability p{width: 100%; margin-bottom: 30px; line-height: 2;}
 .skill .keyword{float: left; width: 50%; padding: 0px 40px 0px 40px; box-sizing: border-box;}
 .skill .keyword .box2{display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; flex-direction: column; color: #fff;}
-.skill .keyword h3{color: #fff; font-size: 28px; font-weight: bold; text-transform: uppercase; margin: 20px 0; font-style: italic; font-family: 'Montserrat', sans-serif;}
-.skill .keyword h4{color: #fff; font-size: 20px; font-weight: bold; border-top: 1px solid #888; display: block; width: 100%; padding: 20px 0; font-family: 'Montserrat', sans-serif;}
+.skill .keyword h3{color: #fff; font-size: 24px; font-weight: bold; text-transform: uppercase; margin: 20px 0; font-style: italic; font-family: 'Montserrat', sans-serif;}
+.skill .keyword h4{color: #fff; font-size: 16px; font-weight: bold; border-top: 1px solid #888; display: block; width: 100%; padding: 20px 0; font-family: 'Montserrat', sans-serif;}
 .skill .keyword p{width: 100%; margin-bottom: 30px; line-height: 2;}
 .skill{overflow: hidden; width: 100%;  font-family: 'S-CoreDream-2ExtraLight'; box-sizing: border-box; padding: 10% 0;}
 .skill .skill_tit2{float: left; width: 100%; text-align: right; position: relative; margin-top: 5%;}
