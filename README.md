@@ -1,0 +1,1 @@
+[![HitCount](http://hits.dwyl.com/nmgndesign/nmgndesigngithubio.svg)](http://hits.dwyl.com/nmgndesign/nmgndesigngithubio)
