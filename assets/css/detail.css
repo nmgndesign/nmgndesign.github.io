@@ -930,6 +930,24 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #page17.show .page17 .page17_image{opacity: 1; transform: translateY(0);}
 #page17.show .page17 .page17_image img{}
 
+/* page18 */
+.page18{overflow: hidden; color: #fff; text-transform: uppercase; padding: 0% 0 0% 0;}
+.page18 .page18_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.page18 .page18_top h2{margin-top: -35px; display: inline; font-size: 80px;}
+.page18 .page18_top h2 em{display: inline; font-size: 80px;}
+.page18 .page18_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
+.page18 .page18_top p em{color: #fff; display: inline;  font-size: 80px; font-style: normal; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; line-height: 0.5;}
+.page18 .page18_left{float: left; width: 25%; margin-image: 5%;}
+.page18 .page18_left .site_tit1{font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; margin: 40px 0 20px 0; position: relative;}
+.page18 .page18_left .site_tit1::before{content: ''; width: 20px; height: 2px; position: absolute; top: -20px; left: 0; background: #fff;}
+.page18 .page18_left h4.site_tit2{color: #fff; font-weight: bold; margin: 40px 0 20px 0; font-size: 15px; font-family: 'S-CoreDream-2ExtraLight'; display: block;}
+.page18 .page18_left ol{overflow: hidden; width: 100%;}
+.page18 .page18_left li{float: left; width: 40%; line-height: 2; font-family: 'Roboto','S-CoreDream-2ExtraLight'; letter-spacing: 1px; font-size: 12px;}
+.page18 .page18_left p{font-family: 'S-CoreDream-2ExtraLight'; letter-spacing: 0.65px; line-height: 1.8;}
+.page18 .page18_left a{color: #fff; margin-top: 40px; display: block; font-size: 14px; letter-spacing: 2px; position: relative; font-weight: bold; border: 1px dashed #fff; padding: 15px; text-align: center;}
+.page18 .page18_image{float: left; width: 100%;}
+.page18 .page18_image img{width: 100%; border-radius: 0px;}
+
 /* page18 - 애니메이션 */
 .page18{}
 .page18 .page18_top{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.0s ease-in-out;}
@@ -963,6 +981,24 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #page18.show .page18 .page18_left a{opacity: 1; transform: translateY(0);}
 #page18.show .page18 .page18_image{opacity: 1; transform: translateY(0);}
 #page18.show .page18 .page18_image img{}
+
+/* page19 */
+.page19{overflow: hidden; color: #fff; text-transform: uppercase; padding: 0% 0 0% 0;}
+.page19 .page19_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.page19 .page19_top h2{margin-top: -35px; display: inline; font-size: 80px;}
+.page19 .page19_top h2 em{display: inline; font-size: 80px;}
+.page19 .page19_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
+.page19 .page19_top p em{color: #fff; display: inline;  font-size: 80px; font-style: normal; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; line-height: 0.5;}
+.page19 .page19_left{float: left; width: 25%; margin-image: 5%;}
+.page19 .page19_left .site_tit1{font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; margin: 40px 0 20px 0; position: relative;}
+.page19 .page19_left .site_tit1::before{content: ''; width: 20px; height: 2px; position: absolute; top: -20px; left: 0; background: #fff;}
+.page19 .page19_left h4.site_tit2{color: #fff; font-weight: bold; margin: 40px 0 20px 0; font-size: 15px; font-family: 'S-CoreDream-2ExtraLight'; display: block;}
+.page19 .page19_left ol{overflow: hidden; width: 100%;}
+.page19 .page19_left li{float: left; width: 40%; line-height: 2; font-family: 'Roboto','S-CoreDream-2ExtraLight'; letter-spacing: 1px; font-size: 12px;}
+.page19 .page19_left p{font-family: 'S-CoreDream-2ExtraLight'; letter-spacing: 0.65px; line-height: 1.8;}
+.page19 .page19_left a{color: #fff; margin-top: 40px; display: block; font-size: 14px; letter-spacing: 2px; position: relative; font-weight: bold; border: 1px dashed #fff; padding: 15px; text-align: center;}
+.page19 .page19_image{float: left; width: 100%;}
+.page19 .page19_image img{width: 100%; border-radius: 0px;}
 
 
 /* page19 - 애니메이션 */
@@ -999,6 +1035,24 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #page19.show .page19 .page19_image{opacity: 1; transform: translateY(0);}
 #page19.show .page19 .page19_image img{}
 
+/* page20 */
+.page20{overflow: hidden; color: #fff; text-transform: uppercase; padding: 0% 0 0% 0;}
+.page20 .page20_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.page20 .page20_top h2{margin-top: -35px; display: inline; font-size: 80px;}
+.page20 .page20_top h2 em{display: inline; font-size: 80px;}
+.page20 .page20_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
+.page20 .page20_top p em{color: #fff; display: inline;  font-size: 80px; font-style: normal; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; line-height: 0.5;}
+.page20 .page20_left{float: left; width: 25%; margin-image: 5%;}
+.page20 .page20_left .site_tit1{font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; margin: 40px 0 20px 0; position: relative;}
+.page20 .page20_left .site_tit1::before{content: ''; width: 20px; height: 2px; position: absolute; top: -20px; left: 0; background: #fff;}
+.page20 .page20_left h4.site_tit2{color: #fff; font-weight: bold; margin: 40px 0 20px 0; font-size: 15px; font-family: 'S-CoreDream-2ExtraLight'; display: block;}
+.page20 .page20_left ol{overflow: hidden; width: 100%;}
+.page20 .page20_left li{float: left; width: 40%; line-height: 2; font-family: 'Roboto','S-CoreDream-2ExtraLight'; letter-spacing: 1px; font-size: 12px;}
+.page20 .page20_left p{font-family: 'S-CoreDream-2ExtraLight'; letter-spacing: 0.65px; line-height: 1.8;}
+.page20 .page20_left a{color: #fff; margin-top: 40px; display: block; font-size: 14px; letter-spacing: 2px; position: relative; font-weight: bold; border: 1px dashed #fff; padding: 15px; text-align: center;}
+.page20 .page20_image{float: left; width: 100%;}
+.page20 .page20_image img{width: 100%; border-radius: 0px;}
+
 /* page20 - 애니메이션 */
 .page20{}
 .page20 .page20_top{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.0s ease-in-out;}
@@ -1033,6 +1087,24 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #page20.show .page20 .page20_image{opacity: 1; transform: translateY(0);}
 #page20.show .page20 .page20_image img{}
 
+/* page21 */
+.page21{overflow: hidden; color: #fff; text-transform: uppercase; padding: 0% 0 0% 0;}
+.page21 .page21_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.page21 .page21_top h2{margin-top: -35px; display: inline; font-size: 80px;}
+.page21 .page21_top h2 em{display: inline; font-size: 80px;}
+.page21 .page21_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
+.page21 .page21_top p em{color: #fff; display: inline;  font-size: 80px; font-style: normal; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; line-height: 0.5;}
+.page21 .page21_left{float: left; width: 25%; margin-image: 5%;}
+.page21 .page21_left .site_tit1{font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; margin: 40px 0 20px 0; position: relative;}
+.page21 .page21_left .site_tit1::before{content: ''; width: 20px; height: 2px; position: absolute; top: -20px; left: 0; background: #fff;}
+.page21 .page21_left h4.site_tit2{color: #fff; font-weight: bold; margin: 40px 0 20px 0; font-size: 15px; font-family: 'S-CoreDream-2ExtraLight'; display: block;}
+.page21 .page21_left ol{overflow: hidden; width: 100%;}
+.page21 .page21_left li{float: left; width: 40%; line-height: 2; font-family: 'Roboto','S-CoreDream-2ExtraLight'; letter-spacing: 1px; font-size: 12px;}
+.page21 .page21_left p{font-family: 'S-CoreDream-2ExtraLight'; letter-spacing: 0.65px; line-height: 1.8;}
+.page21 .page21_left a{color: #fff; margin-top: 40px; display: block; font-size: 14px; letter-spacing: 2px; position: relative; font-weight: bold; border: 1px dashed #fff; padding: 15px; text-align: center;}
+.page21 .page21_image{float: left; width: 100%;}
+.page21 .page21_image img{width: 100%; border-radius: 0px;}
+
 /* page21 - 애니메이션 */
 .page21{}
 .page21 .page21_top{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.0s ease-in-out;}
@@ -1066,6 +1138,24 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #page21.show .page21 .page21_left a{opacity: 1; transform: translateY(0);}
 #page21.show .page21 .page21_image{opacity: 1; transform: translateY(0);}
 #page21.show .page21 .page21_image img{}
+
+/* page22 */
+.page22{overflow: hidden; color: #fff; text-transform: uppercase; padding: 0% 0 0% 0;}
+.page22 .page22_top{margin-top: -25px; font-family: 'Montserrat', sans-serif; font-weight: bold; margin-bottom: 5%;}
+.page22 .page22_top h2{margin-top: -35px; display: inline; font-size: 80px;}
+.page22 .page22_top h2 em{display: inline; font-size: 80px;}
+.page22 .page22_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
+.page22 .page22_top p em{color: #fff; display: inline;  font-size: 80px; font-style: normal; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; line-height: 0.5;}
+.page22 .page22_left{float: left; width: 25%; margin-image: 5%;}
+.page22 .page22_left .site_tit1{font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; margin: 40px 0 20px 0; position: relative;}
+.page22 .page22_left .site_tit1::before{content: ''; width: 20px; height: 2px; position: absolute; top: -20px; left: 0; background: #fff;}
+.page22 .page22_left h4.site_tit2{color: #fff; font-weight: bold; margin: 40px 0 20px 0; font-size: 15px; font-family: 'S-CoreDream-2ExtraLight'; display: block;}
+.page22 .page22_left ol{overflow: hidden; width: 100%;}
+.page22 .page22_left li{float: left; width: 40%; line-height: 2; font-family: 'Roboto','S-CoreDream-2ExtraLight'; letter-spacing: 1px; font-size: 12px;}
+.page22 .page22_left p{font-family: 'S-CoreDream-2ExtraLight'; letter-spacing: 0.65px; line-height: 1.8;}
+.page22 .page22_left a{color: #fff; margin-top: 40px; display: block; font-size: 14px; letter-spacing: 2px; position: relative; font-weight: bold; border: 1px dashed #fff; padding: 15px; text-align: center;}
+.page22 .page22_image{float: left; width: 100%;}
+.page22 .page22_image img{width: 100%; border-radius: 0px;}
 
 /* page22 - 애니메이션 */
 .page22{}
